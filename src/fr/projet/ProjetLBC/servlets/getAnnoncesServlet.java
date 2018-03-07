@@ -13,7 +13,7 @@ import fr.projet.ProjetLBC.beans.Annonce;
 import fr.projet.ProjetLBC.dao.IAnnonceDao;
 import fr.projet.ProjetLBC.dao.mockImpl.AnnonceDao;
 
-@WebServlet(name = "/getAnnoncesServlet")
+@WebServlet("/getAnnoncesServlet")
 public class getAnnoncesServlet extends HttpServlet {
     private static final long serialVersionUID = 1L;
 
