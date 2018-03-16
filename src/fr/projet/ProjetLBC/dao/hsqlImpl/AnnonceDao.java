@@ -1,6 +1,7 @@
 package fr.projet.ProjetLBC.dao.hsqlImpl;
 
 import fr.projet.ProjetLBC.beans.Annonce;
+import fr.projet.ProjetLBC.beans.Utilisateur;
 import fr.projet.ProjetLBC.dao.IAnnonceDao;
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -28,8 +29,15 @@ public class AnnonceDao implements IAnnonceDao{
             while (results.next()) {
                 // Parcours des annonces
                 Annonce annonce = new Annonce();
-                annonce.setId(results.getInt(0));
-                // ...
+                annonce.setId(results.getInt(1));
+                annonce.setTitre(results.getString(2));
+                annonce.setDescription(results.getString(3));
+
+                Utilisateur userDao = UtilisateurDao.getUtilisateur(results.getString(4));
+
+                annonce.setVendeur(userDao);
+                annonce.setCreation(results.getDate(5));
+
                 annonces.add(annonce);
             }
             con.close();

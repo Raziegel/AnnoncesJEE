@@ -7,7 +7,11 @@ public class Utilisateur {
     private String telephone;
     private boolean administrateur;
 
-    public Utilisateur(){
+    public Utilisateur() {
+
+    }
+
+    public Utilisateur(String id, String nom, String password, String telephone, Boolean administrateur){
         administrateur = false;
     }
 

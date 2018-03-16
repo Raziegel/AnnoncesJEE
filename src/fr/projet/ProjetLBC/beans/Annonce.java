@@ -1,11 +1,10 @@
 package fr.projet.ProjetLBC.beans;
-import fr.projet.ProjetLBC.dao.IAnnonceDao;
 
 import java.util.Date;
 
 public class Annonce {
     private  int id;
-    private  Utilisateur vendeur;
+    private Utilisateur vendeur;
     private  String titre;
     private String description;
     private int statut;
