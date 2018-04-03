@@ -7,6 +7,32 @@ import java.sql.*;
 import java.util.List;
 
 public class UtilisateurDao implements IUtilisateurDao {
+    private static List<Utilisateur> listOfUsers;
+
+
+
+    @Override
+    public void getAllUsers(Utilisateur utilisateur) {
+        try {
+            Class.forName("org.hsqldb.jdbcDriver");
+        } catch (ClassNotFoundException e2) {
+            e2.printStackTrace();
+        }
+        Connection con;
+        ResultSet resultats = null;
+
+        try {
+            con = DriverManager.getConnection("jdbc:hsqldb:hsql://localhost:9003");
+            PreparedStatement ps = con.prepareStatement("INSERT INTO UTILISATEURS VALUES (?,?,?,?)");
+            ps.setString(1, utilisateur.getId());
+            ps.setString(2, utilisateur.getPassword());
+            ps.setBoolean(3, false);
+            ps.setString(4, utilisateur.getNom());
+            ps.execute();
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
+    }
 
     public static Utilisateur getUtilisateur(String userId) {
         try {
@@ -35,11 +61,6 @@ public class UtilisateurDao implements IUtilisateurDao {
             e1.printStackTrace();
         }
         return null;
-    }
-
-    @Override
-    public boolean checkLogin(Utilisateur utilisateur) {
-        return false;
     }
 
     @Override
@@ -79,6 +100,23 @@ public class UtilisateurDao implements IUtilisateurDao {
     }
 
     @Override
+    public boolean checkLogin(Utilisateur utilisateur) {
+        boolean accesOk = false;
+        Utilisateur existingUser = null;
+        for (Utilisateur u: listOfUsers) {
+            if (u.getId().equals(utilisateur.getId())) {
+                existingUser = u;
+                break;
+            }
+        }
+        if (existingUser != null) {
+            accesOk = (utilisateur.getId().equals(existingUser.getId())
+                    && utilisateur.getPassword().equals(existingUser.getPassword()));
+        }
+        return accesOk;
+    }
+
+    @Override
     public void addUtilisateur(Utilisateur utilisateur) {
         try {
             Class.forName("org.hsqldb.jdbcDriver");
@@ -90,10 +128,11 @@ public class UtilisateurDao implements IUtilisateurDao {
 
         try {
             con = DriverManager.getConnection("jdbc:hsqldb:hsql://localhost:9003");
-            PreparedStatement ps = con.prepareStatement("INSERT INTO users VALUES (?,?,?)");
+            PreparedStatement ps = con.prepareStatement("INSERT INTO UTILISATEURS VALUES (?,?,?,?)");
             ps.setString(1, utilisateur.getId());
             ps.setString(2, utilisateur.getPassword());
-            ps.setBoolean(3, utilisateur.isAdministrateur());
+            ps.setBoolean(3, false);
+            ps.setString(4, utilisateur.getNom());
             ps.execute();
         } catch (SQLException e) {
             e.printStackTrace();
