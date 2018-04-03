@@ -1,4 +1,4 @@
-package fr.projet.ProjetLBC.dao.mockImpl;
+/*package fr.projet.ProjetLBC.dao.mockImpl;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -86,3 +86,4 @@ public class AnnonceDao implements IAnnonceDao {
 
     }
 }
+*/
