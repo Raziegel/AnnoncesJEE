@@ -4,8 +4,8 @@ import fr.projet.ProjetLBC.beans.Annonce;
 import fr.projet.ProjetLBC.beans.Utilisateur;
 import fr.projet.ProjetLBC.dao.IAnnonceDao;
 import fr.projet.ProjetLBC.dao.IUtilisateurDao;
-import fr.projet.ProjetLBC.dao.mockImpl.AnnonceDao;
-import fr.projet.ProjetLBC.dao.mockImpl.UtilisateurDao;
+import fr.projet.ProjetLBC.dao.hsqlImpl.AnnonceDao;
+import fr.projet.ProjetLBC.dao.hsqlImpl.UtilisateurDao;
 
 import javax.servlet.ServletException;
 import javax.servlet.annotation.WebServlet;

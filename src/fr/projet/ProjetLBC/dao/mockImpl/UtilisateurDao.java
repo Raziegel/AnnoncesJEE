@@ -2,11 +2,14 @@ package fr.projet.ProjetLBC.dao.mockImpl;
 
 import fr.projet.ProjetLBC.beans.Utilisateur;
 
+import java.sql.ResultSet;
 import java.util.ArrayList;
 import java.util.List;
 
 public class UtilisateurDao implements fr.projet.ProjetLBC.dao.IUtilisateurDao {
     private static List<Utilisateur> listOfUsers;
+
+    ResultSet resultats = null;
 
     public UtilisateurDao() {
         listOfUsers = new ArrayList<>();
