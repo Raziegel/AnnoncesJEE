@@ -10,6 +10,7 @@ import javax.servlet.http.HttpSessionEvent;
 import javax.servlet.http.HttpSessionListener;
 
 import fr.projet.ProjetLBC.jmx.Premier;
+import fr.projet.ProjetLBC.jmx.LoggerJMX;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
@@ -54,8 +55,8 @@ public class StartupListner implements ServletContextListener,
         ObjectName name = null;
 
         try {
-            name = new ObjectName("fr.projet.ProjetLBC.jmx:type=PremierMBean");
-            Premier mbean = new Premier();
+            name = new ObjectName("fr.projet.ProjetLBC.jmx:type=LoggerJMXMBean");
+            LoggerJMX mbean = new LoggerJMX();
 
             mbs.registerMBean(mbean, name);
         } catch (MalformedObjectNameException e) {
