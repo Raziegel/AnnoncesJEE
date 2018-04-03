@@ -3,33 +3,13 @@
 <head>
     <meta charset="ISO-8859-1">
     <title>Insert title here</title>
-    <link rel="stylesheet" href="CSS/LoginCSS/logincss.css">
 </head>
 <body>
-<!-- Compiled and minified CSS -->
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/css/materialize.min.css">
-<!-- Compiled and minified JavaScript -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0-beta/js/materialize.min.js"></script>
-
-
 
 <form action="/LoginServlet" method="POST">
-    <div class="card">
-        <div class="overlay">
-            <div class="fader"></div>
-            <p class="title">Login</p>
-            <div class="field username">
-                <input type="text" id="LOGIN" name="Username" required>
-                <label for="LOGIN">Username</label>
-            </div>
-            <div class="field password">
-                <input type="text" id="PWD" name="Password" required>
-                <label for="PWD">Password</label>
-            </div>
-            <button class="login-btn" type="submit" >Go</button>
-            <a class="forgot" href="#">Forgot your Password?</a>
-        </div>
-    </div>
+    <input type="text" name="LOGIN"><br>
+    <input type="text" name="PWD"><br>
+    <input type="submit" value="Se connecter">
 </form>
 
 </body>

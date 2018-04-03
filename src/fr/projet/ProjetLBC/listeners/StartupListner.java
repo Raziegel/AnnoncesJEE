@@ -1,5 +1,6 @@
 package fr.projet.ProjetLBC.listeners;
 
+import javax.management.*;
 import javax.servlet.ServletContextEvent;
 import javax.servlet.ServletContextListener;
 import javax.servlet.annotation.WebListener;
@@ -8,9 +9,12 @@ import javax.servlet.http.HttpSessionBindingEvent;
 import javax.servlet.http.HttpSessionEvent;
 import javax.servlet.http.HttpSessionListener;
 
+import fr.projet.ProjetLBC.jmx.Premier;
+import fr.projet.ProjetLBC.jmx.LoggerJMX;
 import org.apache.logging.log4j.Logger;
 import org.apache.logging.log4j.LogManager;
 
+import java.lang.management.ManagementFactory;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.SQLException;
@@ -47,6 +51,26 @@ public class StartupListner implements ServletContextListener,
             logger.error("Erreur au démarrage. Problème de connexion", e);
 
         }
+        MBeanServer mbs = ManagementFactory.getPlatformMBeanServer();
+        ObjectName name = null;
+
+        try {
+            name = new ObjectName("fr.projet.ProjetLBC.jmx:type=LoggerJMXMBean");
+            LoggerJMX mbean = new LoggerJMX();
+
+            mbs.registerMBean(mbean, name);
+        } catch (MalformedObjectNameException e) {
+            e.printStackTrace();
+        } catch (NullPointerException e){
+            e.printStackTrace();
+        } catch (InstanceAlreadyExistsException e){
+            e.printStackTrace();
+        }catch (MBeanRegistrationException e){
+            e.printStackTrace();
+        }catch (NotCompliantMBeanException e){
+            e.printStackTrace();
+        }
+
     }
 
     public void contextDestroyed(ServletContextEvent sce) {

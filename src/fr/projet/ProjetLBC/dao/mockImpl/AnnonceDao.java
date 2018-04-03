@@ -39,7 +39,6 @@ public class AnnonceDao implements IAnnonceDao {
         listOfAnnonces.add(annonce);
     }
 
-    @Override
     public List<Annonce> getAnnonces(String loginId) {
         List<Annonce> myAnnonces = new ArrayList<>();
         for (Annonce annonce : listOfAnnonces) {
@@ -52,7 +51,38 @@ public class AnnonceDao implements IAnnonceDao {
         return myAnnonces;
     }
 
+    @Override
+    public List<Annonce> getListOfAnnonces(String loginID) {
+        return null;
+    }
 
+    @Override
+    public List<Annonce> getListOfAnnonces(Utilisateur utilisateur) {
+        return null;
+    }
 
+    @Override
+    public List<Annonce> getListOfAnnonces() {
+        return null;
+    }
 
+    @Override
+    public Annonce getAnnonce(String loginID) {
+        return null;
+    }
+
+    @Override
+    public void addAnnonce(Annonce annonce) {
+
+    }
+
+    @Override
+    public void updateAnnonceStatus(Annonce annonce, int status) {
+
+    }
+
+    @Override
+    public void deleteAnnonce(Annonce annonce) {
+
+    }
 }
