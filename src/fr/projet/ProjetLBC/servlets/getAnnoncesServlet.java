@@ -11,7 +11,8 @@ import java.util.List;
 
 import fr.projet.ProjetLBC.beans.Annonce;
 import fr.projet.ProjetLBC.dao.IAnnonceDao;
-import fr.projet.ProjetLBC.dao.mockImpl.AnnonceDao;
+import fr.projet.ProjetLBC.dao.hsqlImpl.AnnonceDao;
+//import fr.projet.ProjetLBC.dao.mockImpl.AnnonceDao;
 
 @WebServlet("/getAnnoncesServlet")
 public class getAnnoncesServlet extends HttpServlet {
@@ -31,7 +32,7 @@ public class getAnnoncesServlet extends HttpServlet {
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         String login = request.getParameter("LOGIN");
         IAnnonceDao annonceDao = new AnnonceDao();
-        List<Annonce> myAnnonces = annonceDao.getAnnonces(login);
+        List<Annonce> myAnnonces = annonceDao.getListOfAnnoncesWithID(login);
         for (Annonce annonce : myAnnonces) {
             System.out.println("Annonce=" + annonce.getTitre());
         }
