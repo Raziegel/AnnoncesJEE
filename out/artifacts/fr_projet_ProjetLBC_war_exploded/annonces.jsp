@@ -14,11 +14,25 @@
     <th>
         TITRE
     </th>
+    <th>
+        DETAILS
+    </th>
     <%
         List<Annonce> myAnnonces = (List)request.getAttribute("ANNONCES");
         for (Annonce annonce : myAnnonces) {
             out.println("<tr>");
+            out.println("<td>");
             out.println(annonce.getTitre());
+            out.println("</td>");
+            out.println("<td>");
+            out.println("<a href='localhost:8080/fr.epsi.myEpsi/Annonce?id="+annonce.getId()+"' >Details de l'annonce</a>");
+            out.println("</td>");
+            out.println("<td>");
+            out.println(annonce.getVendeur().getNom());
+            out.println("</td>");
+            out.println("<td>");
+            out.println(annonce.getCreation().toString());
+            out.println("</td>");
             out.println("</tr>");
         }
     %>

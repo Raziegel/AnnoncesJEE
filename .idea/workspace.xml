@@ -7,7 +7,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0abbd21-4695-4945-8ad6-45dd46f4647c" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/fr/projet/ProjetLBC/listeners/StartupListner.java" afterPath="$PROJECT_DIR$/src/fr/projet/ProjetLBC/listeners/StartupListner.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/web/CSS/HomeCSS/home.css" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/web/annonces.jsp" afterPath="$PROJECT_DIR$/web/annonces.jsp" />
+      <change beforePath="$PROJECT_DIR$/web/index.html" afterPath="$PROJECT_DIR$/web/index.html" />
+      <change beforePath="$PROJECT_DIR$/web/login.html" afterPath="$PROJECT_DIR$/web/login.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -19,22 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AnnonceTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fr/projet/ProjetLBC/integrationTest/AnnonceTest.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="295">
-              <caret line="26" column="1" lean-forward="true" selection-start-line="26" selection-start-column="1" selection-end-line="26" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StartupListner.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="StartupListner.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fr/projet/ProjetLBC/listeners/StartupListner.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
+            <state relative-caret-position="85">
               <caret line="40" column="45" lean-forward="false" selection-start-line="40" selection-start-column="45" selection-end-line="40" selection-end-column="45" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -65,6 +57,48 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="LoginServlet.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fr/projet/ProjetLBC/servlets/LoginServlet.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="11" lean-forward="false" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/web/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/CSS/HomeCSS/home.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="24" column="14" lean-forward="false" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="login.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/login.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="AnnonceDao.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fr/projet/ProjetLBC/dao/hsqlImpl/AnnonceDao.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -83,51 +117,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="annonces.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/annonces.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="561">
+              <caret line="33" column="56" lean-forward="false" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="LoggerJMXMBean.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/fr/projet/ProjetLBC/jmx/LoggerJMXMBean.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="34">
               <caret line="2" column="16" lean-forward="false" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Constants.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fr/projet/ProjetLBC/Constants.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Annonce.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fr/projet/ProjetLBC/beans/Annonce.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="101" column="20" lean-forward="true" selection-start-line="101" selection-start-column="20" selection-end-line="101" selection-end-column="20" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Statuts.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fr/projet/ProjetLBC/beans/Statuts.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Utilisateur.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fr/projet/ProjetLBC/beans/Utilisateur.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -140,6 +144,7 @@
       <list>
         <option value="Interface" />
         <option value="Class" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -170,6 +175,10 @@
         <option value="$PROJECT_DIR$/src/fr/projet/ProjetLBC/jmx/LoggerJMX.java" />
         <option value="$PROJECT_DIR$/src/log4j2.xml" />
         <option value="$PROJECT_DIR$/src/fr/projet/ProjetLBC/listeners/StartupListner.java" />
+        <option value="$PROJECT_DIR$/web/annonces.jsp" />
+        <option value="$PROJECT_DIR$/web/login.html" />
+        <option value="$PROJECT_DIR$/web/CSS/HomeCSS/home.css" />
+        <option value="$PROJECT_DIR$/web/index.html" />
       </list>
     </option>
   </component>
@@ -242,57 +251,7 @@
               <item name="AnnoncesJEE" type="b2602c69:ProjectViewProjectNode" />
               <item name="AnnoncesJEE" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ProjetLBC" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AnnoncesJEE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AnnoncesJEE" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="ProjetLBC" type="462c0819:PsiDirectoryNode" />
-              <item name="Constants" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="AnnoncesJEE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AnnoncesJEE" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="beans" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AnnoncesJEE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AnnoncesJEE" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="dao" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AnnoncesJEE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AnnoncesJEE" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="hsqlImpl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AnnoncesJEE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AnnoncesJEE" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="mockImpl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AnnoncesJEE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AnnoncesJEE" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="integrationTest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="AnnoncesJEE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AnnoncesJEE" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="integrationTest" type="462c0819:PsiDirectoryNode" />
-              <item name="AnnonceTest" type="1a9f42e2:ClassTreeNode" />
-            </path>
-            <path>
-              <item name="AnnoncesJEE" type="b2602c69:ProjectViewProjectNode" />
-              <item name="AnnoncesJEE" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="jmx" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="AnnoncesJEE" type="b2602c69:ProjectViewProjectNode" />
@@ -310,7 +269,33 @@
             <path>
               <item name="AnnoncesJEE" type="b2602c69:ProjectViewProjectNode" />
               <item name="AnnoncesJEE" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="servlets" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AnnoncesJEE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AnnoncesJEE" type="462c0819:PsiDirectoryNode" />
               <item name="web" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AnnoncesJEE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AnnoncesJEE" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="CSS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AnnoncesJEE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AnnoncesJEE" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="CSS" type="462c0819:PsiDirectoryNode" />
+              <item name="HomeCSS" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AnnoncesJEE" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AnnoncesJEE" type="462c0819:PsiDirectoryNode" />
+              <item name="web" type="462c0819:PsiDirectoryNode" />
+              <item name="CSS" type="462c0819:PsiDirectoryNode" />
+              <item name="LoginCSS" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -325,6 +310,7 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
     <key name="ExtractSuperBase.RECENT_KEYS">
@@ -517,7 +503,7 @@
       <workItem from="1522308102333" duration="185000" />
       <workItem from="1522735229748" duration="2123000" />
       <workItem from="1522738387748" duration="2156000" />
-      <workItem from="1522740664519" duration="3655000" />
+      <workItem from="1522740664519" duration="6464000" />
     </task>
     <task id="LOCAL-00001" summary="Merge branch 'master' of https://github.com/Raziegel/AnnoncesJEE&#10;&#10;# Conflicts:&#10;#&#9;.gitignore&#10;#&#9;fr.projet.ProjetLBC.iml&#10;#&#9;out/artifacts/fr_projet_ProjetLBC_war_exploded/WEB-INF/classes/fr/projet/ProjetLBC/dao/hsqlImpl/AnnonceDao.class&#10;#&#9;out/artifacts/fr_projet_ProjetLBC_war_exploded/WEB-INF/classes/fr/projet/ProjetLBC/listeners/StartupListner.class&#10;#&#9;out/artifacts/fr_projet_ProjetLBC_war_exploded/WEB-INF/classes/fr/projet/ProjetLBC/servlets/LoginServlet.class&#10;#&#9;out/artifacts/fr_projet_ProjetLBC_war_exploded/WEB-INF/classes/fr/projet/ProjetLBC/servlets/getAnnoncesServlet.class&#10;#&#9;out/artifacts/fr_projet_ProjetLBC_war_exploded/login.html&#10;#&#9;out/production/fr.projet.ProjetLBC/fr/projet/ProjetLBC/dao/hsqlImpl/AnnonceDao.class&#10;#&#9;out/production/fr.projet.ProjetLBC/fr/projet/ProjetLBC/listeners/StartupListner.class&#10;#&#9;out/production/fr.projet.ProjetLBC/fr/projet/ProjetLBC/servlets/LoginServlet.class&#10;#&#9;out/production/fr.projet.ProjetLBC/fr/projet/ProjetLBC/servlets/getAnnoncesServlet.class&#10;#&#9;src/fr/projet/ProjetLBC/dao/hsqlImpl/AnnonceDao.java&#10;#&#9;src/fr/projet/ProjetLBC/dao/mockImpl/AnnonceDao.java&#10;#&#9;src/fr/projet/ProjetLBC/dao/mockImpl/UtilisateurDao.java">
       <created>1522740043591</created>
@@ -537,7 +523,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14896000" />
+    <option name="totallyTimeSpent" value="17705000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -624,48 +610,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/fr/projet/ProjetLBC/servlets/getAnnoncesServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/web/annonces.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/projet/ProjetLBC/servlets/WebServlet.java" />
-    <entry file="file://$PROJECT_DIR$/src/fr/projet/ProjetLBC/servlets/getAnnoncesServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="24" column="47" lean-forward="true" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/projet/ProjetLBC/listeners/StartupListner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" column="39" lean-forward="false" selection-start-line="11" selection-start-column="39" selection-end-line="11" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/projet/ProjetLBC/jmx/Premier.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/projet/ProjetLBC/jmx/LoggerJMX.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="425">
@@ -831,13 +775,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/annonces.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="9" lean-forward="false" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/fr.projet.ProjetLBC.iml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="225">
@@ -879,13 +816,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/login.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="15" column="42" lean-forward="true" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/projet/ProjetLBC/servlets/getAnnonceServlet.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
@@ -921,16 +851,6 @@
             <marker date="1522740628437" expanded="true" signature="3479:3648" ph="INSERT INTO ANNONCES... " />
             <marker date="1522740628437" expanded="true" signature="4683:4725" ph="UPDATE annonce... " />
             <marker date="1522740628437" expanded="true" signature="5204:5237" ph="DELETE FROM messages... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/fr/projet/ProjetLBC/servlets/LoginServlet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-147">
-          <caret line="24" column="11" lean-forward="false" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
-          <folding>
-            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -987,14 +907,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/log4j2.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="22" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/projet/ProjetLBC/jmx/LoggerJMXMBean.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1019,13 +931,95 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/db/_startServer.bat">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/projet1.script">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/projet1.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/projet1.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/fr/projet/ProjetLBC/listeners/StartupListner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
+        <state relative-caret-position="85">
           <caret line="40" column="45" lean-forward="false" selection-start-line="40" selection-start-column="45" selection-end-line="40" selection-end-column="45" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/fr/projet/ProjetLBC/servlets/LoginServlet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="11" lean-forward="false" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/annonces.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="56" lean-forward="false" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="16" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/log4j2.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="22" lean-forward="false" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/CSS/HomeCSS/home.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="24" column="14" lean-forward="false" selection-start-line="24" selection-start-column="14" selection-end-line="24" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+          <folding />
         </state>
       </provider>
     </entry>
