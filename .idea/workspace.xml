@@ -7,11 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a0abbd21-4695-4945-8ad6-45dd46f4647c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/web/CSS/HomeCSS/home.css" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/web/annonces.jsp" afterPath="$PROJECT_DIR$/web/annonces.jsp" />
       <change beforePath="$PROJECT_DIR$/web/index.html" afterPath="$PROJECT_DIR$/web/index.html" />
-      <change beforePath="$PROJECT_DIR$/web/login.html" afterPath="$PROJECT_DIR$/web/login.html" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -72,8 +69,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/web/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="238">
-              <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+            <state relative-caret-position="221">
+              <caret line="20" column="23" lean-forward="false" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -503,7 +500,7 @@
       <workItem from="1522308102333" duration="185000" />
       <workItem from="1522735229748" duration="2123000" />
       <workItem from="1522738387748" duration="2156000" />
-      <workItem from="1522740664519" duration="6464000" />
+      <workItem from="1522740664519" duration="7071000" />
     </task>
     <task id="LOCAL-00001" summary="Merge branch 'master' of https://github.com/Raziegel/AnnoncesJEE&#10;&#10;# Conflicts:&#10;#&#9;.gitignore&#10;#&#9;fr.projet.ProjetLBC.iml&#10;#&#9;out/artifacts/fr_projet_ProjetLBC_war_exploded/WEB-INF/classes/fr/projet/ProjetLBC/dao/hsqlImpl/AnnonceDao.class&#10;#&#9;out/artifacts/fr_projet_ProjetLBC_war_exploded/WEB-INF/classes/fr/projet/ProjetLBC/listeners/StartupListner.class&#10;#&#9;out/artifacts/fr_projet_ProjetLBC_war_exploded/WEB-INF/classes/fr/projet/ProjetLBC/servlets/LoginServlet.class&#10;#&#9;out/artifacts/fr_projet_ProjetLBC_war_exploded/WEB-INF/classes/fr/projet/ProjetLBC/servlets/getAnnoncesServlet.class&#10;#&#9;out/artifacts/fr_projet_ProjetLBC_war_exploded/login.html&#10;#&#9;out/production/fr.projet.ProjetLBC/fr/projet/ProjetLBC/dao/hsqlImpl/AnnonceDao.class&#10;#&#9;out/production/fr.projet.ProjetLBC/fr/projet/ProjetLBC/listeners/StartupListner.class&#10;#&#9;out/production/fr.projet.ProjetLBC/fr/projet/ProjetLBC/servlets/LoginServlet.class&#10;#&#9;out/production/fr.projet.ProjetLBC/fr/projet/ProjetLBC/servlets/getAnnoncesServlet.class&#10;#&#9;src/fr/projet/ProjetLBC/dao/hsqlImpl/AnnonceDao.java&#10;#&#9;src/fr/projet/ProjetLBC/dao/mockImpl/AnnonceDao.java&#10;#&#9;src/fr/projet/ProjetLBC/dao/mockImpl/UtilisateurDao.java">
       <created>1522740043591</created>
@@ -523,7 +520,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17705000" />
+    <option name="totallyTimeSpent" value="18312000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1616" height="876" extended-state="6" />
@@ -1017,8 +1014,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/web/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="21" column="17" lean-forward="true" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        <state relative-caret-position="221">
+          <caret line="20" column="23" lean-forward="false" selection-start-line="20" selection-start-column="23" selection-end-line="20" selection-end-column="23" />
           <folding />
         </state>
       </provider>
