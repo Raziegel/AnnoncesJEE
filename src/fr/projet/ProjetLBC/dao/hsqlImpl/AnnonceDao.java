@@ -1,6 +1,7 @@
 package fr.projet.ProjetLBC.dao.hsqlImpl;
 
 import fr.projet.ProjetLBC.beans.Annonce;
+import fr.projet.ProjetLBC.beans.Utilisateur;
 import fr.projet.ProjetLBC.dao.IAnnonceDao;
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -29,7 +30,7 @@ public class AnnonceDao implements IAnnonceDao{
                 // Parcours des annonces
                 Annonce annonce = new Annonce();
                 annonce.setId(results.getInt(0));
-                // ...
+
                 annonces.add(annonce);
             }
             con.close();
@@ -38,4 +39,38 @@ public class AnnonceDao implements IAnnonceDao{
         }
         return annonces;
     }
+
+    //@Override
+    public void deleteAnnonce(String annonceID){
+        String url = "127.0.0.1:9003";
+        Connection con;
+        try {
+            con = DriverManager.getConnection("jdbc:hsqldb:hsql://" + url, "SA", "");
+            Statement stmt = con.createStatement();
+            ResultSet results = stmt.executeQuery("DELETE FROM ANNONCES WHERE id = " +annonceID);
+            con.close();
+        }catch (SQLException e){
+            e.printStackTrace();
+        }
+
+    }
+
+    //@Override
+    public void updateAnnonce(String annonceID){
+        String url = "127.0.0.1:9003";
+        Connection con;
+        try {
+            con = DriverManager.getConnection("jdbc:hsqldb:hsql://" + url, "SA", "");
+            Statement stmt = con.createStatement();
+            ResultSet results = stmt.executeQuery(" FROM ANNONCES WHERE id = " +annonceID);
+            con.close();
+        }catch (SQLException e){
+            e.printStackTrace();
+        }
+
+    }
+
+
+
+
 }

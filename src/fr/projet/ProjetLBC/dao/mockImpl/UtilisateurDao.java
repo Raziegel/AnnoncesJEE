@@ -36,5 +36,4 @@ public class UtilisateurDao implements fr.projet.ProjetLBC.dao.IUtilisateurDao {
         }
         return accesOk;
     }
-
 }
