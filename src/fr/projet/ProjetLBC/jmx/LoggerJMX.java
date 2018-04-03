@@ -35,15 +35,31 @@ public class LoggerJMX  implements  LoggerJMXMBean{
                 lvl = Level.getLevel("DEBUG");
                 loggerConfig.setLevel(lvl);
                 break;
-            case "WARNING":
-                lvl = Level.getLevel("WARNING");
+            case "debug":
+                lvl = Level.getLevel("DEBUG");
                 loggerConfig.setLevel(lvl);
                 break;
-            case "INFOS":
-                lvl = Level.getLevel("INFOS");
+            case "WARNING":
+                lvl = Level.getLevel("WARN");
+                loggerConfig.setLevel(lvl);
+                break;
+            case "warning":
+                lvl = Level.getLevel("WARN");
+                loggerConfig.setLevel(lvl);
+                break;
+            case "INFO":
+                lvl = Level.getLevel("INFO");
+                loggerConfig.setLevel(lvl);
+                break;
+            case "info":
+                lvl = Level.getLevel("INFO");
                 loggerConfig.setLevel(lvl);
                 break;
             case "ERROR":
+                lvl = Level.getLevel("ERROR");
+                loggerConfig.setLevel(lvl);
+                break;
+            case "error":
                 lvl = Level.getLevel("ERROR");
                 loggerConfig.setLevel(lvl);
                 break;

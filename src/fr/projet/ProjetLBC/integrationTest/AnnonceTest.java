@@ -1,4 +1,4 @@
-/*package fr.projet.ProjetLBC.integrationTest;
+package fr.projet.ProjetLBC.integrationTest;
 
 import org.jboss.arquillian.container.test.api.Deployment;
 import org.jboss.arquillian.junit.Arquillian;
@@ -24,4 +24,4 @@ public class AnnonceTest {
 
 
     }
-}*/
+}
