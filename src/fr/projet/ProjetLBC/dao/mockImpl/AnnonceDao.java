@@ -1,4 +1,4 @@
-package fr.projet.ProjetLBC.dao.mockImpl;
+/* package fr.projet.ProjetLBC.dao.mockImpl;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -52,14 +52,14 @@ public class AnnonceDao implements IAnnonceDao {
     }
 
     @Override
-    public List<Annonce> getListOfAnnonces(String loginID) {
+    public List<Annonce> getListOfAnnoncesWithID(String loginID) {
         return null;
     }
 
-    @Override
-    public List<Annonce> getListOfAnnonces(Utilisateur utilisateur) {
-        return null;
-    }
+    //@Override
+    //public List<Annonce> getListOfAnnonces(Utilisateur utilisateur) {
+      //  return null;
+    //}
 
     @Override
     public List<Annonce> getListOfAnnonces() {
@@ -86,3 +86,4 @@ public class AnnonceDao implements IAnnonceDao {
 
     }
 }
+*/

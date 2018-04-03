@@ -10,11 +10,11 @@ import java.util.List;
 import java.sql.Connection;
 import java.util.ArrayList;
 import java.util.List;
-
+import java.time.*;
 public class AnnonceDao implements IAnnonceDao{
 
     @Override
-    public List<Annonce> getListOfAnnonces(Utilisateur utilisateur) {
+    public List<Annonce> getListOfAnnoncesWithUser(Utilisateur utilisateur) {
         String url = "127.0.0.1:9003";
         Connection con;
 
@@ -41,6 +41,11 @@ public class AnnonceDao implements IAnnonceDao{
             e1.printStackTrace();
         }
         return annonces;
+    }
+
+    @Override
+    public List<Annonce> getListOfAnnoncesWithID(String id) {
+        return null;
     }
 
     @Override
@@ -103,13 +108,13 @@ public class AnnonceDao implements IAnnonceDao{
             ps.setLong(1, nextId);
             ps.setString(2, annonce.getTitre());
             ps.setString(3, annonce.getContent());
-            ps.setString(4, annonce.Utilisateur.getVendeur());
-            ps.setTimestamp(5, annonce.getCreation());
-            ps.setTimestamp(6, annonce.getModification());
-            ps.setInt(7, annonce.getPrix());
+            ps.setString(4, annonce.getVendeur().getID());
+            ps.setObject(5, annonce.getCreation());
+            ps.setObject(6, annonce.getModification());
+            ps.setDouble(7, annonce.getPrix());
             ps.setInt(8, annonce.getStatut());
-            ps.setString(9, annonce.getAcheteur());
-            ps.setInt(10, annonce.getAchat());
+            ps.setString(9, annonce.getAcheteur().getID());
+            ps.setObject(10, annonce.getAchat().toInstant().atZone(ZoneId.of("Europe/Paris")).toLocalDate());
             ps.setLong(11, annonce.getNbVues());
             ps.execute();
 
@@ -127,7 +132,7 @@ public class AnnonceDao implements IAnnonceDao{
             con = DriverManager.getConnection("jdbc:hsqldb:hsql://" + url, "SA", "");
             PreparedStatement ps = con.prepareStatement("UPDATE annonce SET status = ? WHERE id = ?");
             ps.setInt(1, status);
-            ps.setLong(2, anonnce.getId());
+            ps.setLong(2, annonce.getId());
             ps.execute();
 
         }catch (SQLException e1) {

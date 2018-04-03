@@ -7,7 +7,8 @@ import java.util.List;
 
 public interface IAnnonceDao {
 
-    List<Annonce> getListOfAnnonces(Utilisateur utilisateur);
+    List<Annonce> getListOfAnnoncesWithUser(Utilisateur utilisateur);
+    List<Annonce> getListOfAnnoncesWithID(String id);
     List<Annonce> getListOfAnnonces();
     Annonce getAnnonce(String loginID);
     void addAnnonce(Annonce annonce);

@@ -39,7 +39,7 @@ public class LoginServlet extends HttpServlet {
         IUtilisateurDao userDao = new UtilisateurDao();
         if (userDao.checkLogin(utilisateur)) {
             IAnnonceDao annonceDao = new AnnonceDao();
-            List<Annonce> myAnnonces = annonceDao.getAnnonces(login);
+            List<Annonce> myAnnonces = annonceDao.getListOfAnnoncesWithID(login);
             request.setAttribute("ANNONCES", myAnnonces);
             request.getRequestDispatcher("annonces.jsp").forward(request, response);
         } else {
