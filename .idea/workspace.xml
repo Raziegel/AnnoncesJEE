@@ -30,31 +30,39 @@
       <file leaf-file-name="UtilisateurDao.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/fr/projet/ProjetLBC/dao/hsqlImpl/UtilisateurDao.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="2" column="45" lean-forward="true" selection-start-line="2" selection-start-column="45" selection-end-line="2" selection-end-column="45" />
-              <folding>
-                <element signature="e#1347#1348#0" expanded="true" />
-                <element signature="e#1375#1376#0" expanded="true" />
-                <marker date="1521197208363" expanded="true" signature="626:658" ph="SELECT * FRO... users" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="LoginServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fr/projet/ProjetLBC/servlets/LoginServlet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+            <state relative-caret-position="159">
+              <caret line="120" column="32" lean-forward="false" selection-start-line="120" selection-start-column="32" selection-end-line="120" selection-end-column="32" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#1343#1344#0" expanded="true" />
+                <element signature="e#1371#1372#0" expanded="true" />
+                <element signature="e#1441#1442#0" expanded="true" />
+                <element signature="e#1468#1469#0" expanded="true" />
+                <marker date="1522701260248" expanded="true" signature="674:706" ph="SELECT * FRO... users" />
+                <marker date="1522701260248" expanded="true" signature="1913:1945" ph="SELECT * FRO... users" />
+                <marker date="1522701260248" expanded="true" signature="2940:2972" ph="INSERT INTO users... " />
+                <marker date="1522701260248" expanded="true" signature="3702:3765" ph="UPDATE users... " />
+                <marker date="1522701260248" expanded="true" signature="4459:4489" ph="DELETE FROM users... " />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="getAnnoncesServlet.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/fr/projet/ProjetLBC/servlets/getAnnoncesServlet.java">
+      <file leaf-file-name="Utilisateur.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fr/projet/ProjetLBC/beans/Utilisateur.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <element signature="e#345#346#0" expanded="true" />
+                <element signature="e#383#384#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IAnnonceDao.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/fr/projet/ProjetLBC/dao/IAnnonceDao.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="85">
               <caret line="16" column="13" lean-forward="false" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
@@ -252,6 +260,11 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+  </component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="fr.projet.ProjetLBC.dao.hsqlImpl" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -531,7 +544,14 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
-            <marker date="1521196132112" expanded="true" signature="886:908" ph="SELECT * FRO... ANNONCES" />
+            <element signature="e#1514#1515#0" expanded="true" />
+            <element signature="e#1541#1542#0" expanded="true" />
+            <marker date="1522700194011" expanded="true" signature="778:800" ph="SELECT * FRO... ANNONCES" />
+            <marker date="1522700194011" expanded="true" signature="1873:1908" ph="SELECT * FRO... ANNONCES" />
+            <marker date="1522700194011" expanded="true" signature="2970:3005" ph="SELECT * FRO... ANNONCES" />
+            <marker date="1522700194011" expanded="true" signature="3348:3517" ph="INSERT INTO MESSAGES... " />
+            <marker date="1522700194011" expanded="true" signature="4488:4530" ph="UPDATE messages... " />
+            <marker date="1522700194011" expanded="true" signature="5009:5042" ph="DELETE FROM messages... " />
           </folding>
         </state>
       </provider>
@@ -549,9 +569,16 @@
         <state relative-caret-position="51">
           <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding>
-            <element signature="e#1347#1348#0" expanded="true" />
-            <element signature="e#1375#1376#0" expanded="true" />
-            <marker date="1521197208363" expanded="true" signature="626:658" ph="SELECT * FRO... users" />
+            <element signature="imports" expanded="true" />
+            <element signature="e#1343#1344#0" expanded="true" />
+            <element signature="e#1371#1372#0" expanded="true" />
+            <element signature="e#1441#1442#0" expanded="true" />
+            <element signature="e#1468#1469#0" expanded="true" />
+            <marker date="1522701260248" expanded="true" signature="674:706" ph="SELECT * FRO... users" />
+            <marker date="1522701260248" expanded="true" signature="1913:1945" ph="SELECT * FRO... users" />
+            <marker date="1522701260248" expanded="true" signature="2940:2972" ph="INSERT INTO users... " />
+            <marker date="1522701260248" expanded="true" signature="3702:3765" ph="UPDATE users... " />
+            <marker date="1522701260248" expanded="true" signature="4459:4489" ph="DELETE FROM users... " />
           </folding>
         </state>
       </provider>
@@ -710,7 +737,8 @@
         <state relative-caret-position="799">
           <caret line="47" column="16" lean-forward="false" selection-start-line="47" selection-start-column="16" selection-end-line="47" selection-end-column="37" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#345#346#0" expanded="true" />
+            <element signature="e#383#384#0" expanded="true" />
           </folding>
         </state>
       </provider>

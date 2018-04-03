@@ -4,16 +4,16 @@ import java.util.Date;
 
 public class Annonce {
     private  int id;
-    private Utilisateur vendeur;
     private  String titre;
-    private String description;
-    private int statut;
-    private Double prix;
-    private long nbVues;
+    private String content;
+    private Utilisateur vendeur;
     private  Date creation;
     private Date modification;
+    private Double prix;
+    private int statut;
     private Utilisateur acheteur;
     private Date achat;
+    private long nbVues;
 
     public Annonce(){
         statut = Statuts.TEMPORAIRE;
@@ -43,12 +43,12 @@ public class Annonce {
         this.titre = titre;
     }
 
-    public String getDescription() {
-        return description;
+    public String getContent() {
+        return content;
     }
 
-    public void setDescription(String description) {
-        this.description = description;
+    public void setContent(String content) {
+        this.content = content;
     }
 
     public int getStatut() {

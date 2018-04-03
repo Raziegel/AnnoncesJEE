@@ -40,4 +40,29 @@ public class UtilisateurDao implements fr.projet.ProjetLBC.dao.IUtilisateurDao {
         return accesOk;
     }
 
+    @Override
+    public List<Utilisateur> getListOfUtilisateurs() {
+        return null;
+    }
+
+    @Override
+    public Utilisateur getUtilisateurById(String id) {
+        return null;
+    }
+
+    @Override
+    public void addUtilisateur(Utilisateur utilisateur) {
+
+    }
+
+    @Override
+    public void updateUtilisateur(Utilisateur utilisateur) {
+
+    }
+
+    @Override
+    public void deleteUtilisateur(Utilisateur utilisateur) {
+
+    }
+
 }
